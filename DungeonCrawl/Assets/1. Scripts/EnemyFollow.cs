@@ -11,7 +11,7 @@ public class EnemyFollow : MonoBehaviour
     bool follow;
 
     private NavMeshAgent agent;
-    public GameObject getHim;
+    public Transform getHim;
 
     private void Start()
     {
@@ -30,7 +30,8 @@ public class EnemyFollow : MonoBehaviour
 
         if (follow == true)
         {
-            agent.SetDestination(getHim.transform.position); 
+            transform.LookAt(getHim);
+            transform.Translate(Vector3.forward *Time.deltaTime); 
         }
     }
 
