@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -11,7 +12,7 @@ public class EnemyFollow : MonoBehaviour
     bool follow;
 
     private NavMeshAgent agent;
-    public Transform getHim;
+    public GameObject getHim;
 
     private void Start()
     {
@@ -30,7 +31,7 @@ public class EnemyFollow : MonoBehaviour
 
         if (follow == true)
         {
-            transform.LookAt(getHim);
+           
             transform.Translate(Vector3.forward *Time.deltaTime); 
         }
     }
