@@ -32,7 +32,7 @@ public class EnemyFollow : MonoBehaviour
         if (follow == true)
         {
            
-            transform.Translate(Vector3.forward *Time.deltaTime); 
+            agent.SetDestination(getHim.transform.position); 
         }
     }
 
