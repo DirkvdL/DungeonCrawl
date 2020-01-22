@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GoblinAttack
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/BASS
+    m_Weight: 0
+  - m_Path: Armature/BASS/ribz
+    m_Weight: 0
+  - m_Path: Armature/BASS/ribz/chest
+    m_Weight: 1
+  - m_Path: Armature/BASS/ribz/chest/neck
+    m_Weight: 1
+  - m_Path: Armature/BASS/ribz/chest/neck/head
+    m_Weight: 1
+  - m_Path: Armature/BASS/ribz/chest/neck/head/head_end
+    m_Weight: 0
+  - m_Path: Armature/Pole L arm
+    m_Weight: 1
+  - m_Path: Armature/Pole L arm/Pole L arm_end
+    m_Weight: 1
+  - m_Path: Armature/Pole L Foot
+    m_Weight: 0
+  - m_Path: Armature/Pole L Foot/Pole L Foot_end
+    m_Weight: 0
+  - m_Path: Armature/Pole R arm
+    m_Weight: 1
+  - m_Path: Armature/Pole R arm/Pole R arm_end
+    m_Weight: 1
+  - m_Path: Armature/Pole R Foot
+    m_Weight: 0
+  - m_Path: Armature/Pole R Foot/Pole R Foot_end
+    m_Weight: 0
+  - m_Path: Armature/shoulder L
+    m_Weight: 1
+  - m_Path: Armature/shoulder L/Bicep L
+    m_Weight: 1
+  - m_Path: Armature/shoulder L/Bicep L/Wrist L
+    m_Weight: 1
+  - m_Path: Armature/shoulder L/Bicep L/Wrist L/bot
+    m_Weight: 1
+  - m_Path: Armature/shoulder L/Bicep L/Wrist L/bot/thumb L
+    m_Weight: 1
+  - m_Path: Armature/shoulder L/Bicep L/Wrist L/bot/thumb L/thumb L_end
+    m_Weight: 1
+  - m_Path: Armature/shoulder L/Bicep L/Wrist L/hand L
+    m_Weight: 1
+  - m_Path: Armature/shoulder L/Bicep L/Wrist L/hand L/finger L
+    m_Weight: 1
+  - m_Path: Armature/shoulder L/Bicep L/Wrist L/hand L/finger L/Fingertip L
+    m_Weight: 1
+  - m_Path: Armature/shoulder L/Bicep L/Wrist L/hand L/finger L/Fingertip L/Fingertip
+      L_end
+    m_Weight: 1
+  - m_Path: Armature/shoulder R
+    m_Weight: 1
+  - m_Path: Armature/shoulder R/Bicep R
+    m_Weight: 1
+  - m_Path: Armature/shoulder R/Bicep R/Wrist R
+    m_Weight: 1
+  - m_Path: Armature/shoulder R/Bicep R/Wrist R/bot.001
+    m_Weight: 1
+  - m_Path: Armature/shoulder R/Bicep R/Wrist R/bot.001/thumb R
+    m_Weight: 1
+  - m_Path: Armature/shoulder R/Bicep R/Wrist R/bot.001/thumb R/thumb R_end
+    m_Weight: 1
+  - m_Path: Armature/shoulder R/Bicep R/Wrist R/hand R
+    m_Weight: 1
+  - m_Path: Armature/shoulder R/Bicep R/Wrist R/hand R/finger R
+    m_Weight: 1
+  - m_Path: Armature/shoulder R/Bicep R/Wrist R/hand R/finger R/Fingertip R
+    m_Weight: 1
+  - m_Path: Armature/shoulder R/Bicep R/Wrist R/hand R/finger R/Fingertip R/Fingertip
+      R_end
+    m_Weight: 1
+  - m_Path: Armature/Target L Foot
+    m_Weight: 0
+  - m_Path: Armature/Target L Foot/Target L Foot_end
+    m_Weight: 0
+  - m_Path: Armature/Target L Hand
+    m_Weight: 1
+  - m_Path: Armature/Target L Hand/Target L Hand_end
+    m_Weight: 1
+  - m_Path: Armature/Target R Foot
+    m_Weight: 0
+  - m_Path: Armature/Target R Foot/Target R Foot_end
+    m_Weight: 0
+  - m_Path: Armature/Target R Hand
+    m_Weight: 1
+  - m_Path: Armature/Target R Hand/Target R Hand_end
+    m_Weight: 1
+  - m_Path: Armature/Thigh L
+    m_Weight: 0
+  - m_Path: Armature/Thigh L/Calf L
+    m_Weight: 0
+  - m_Path: Armature/Thigh L/Calf L/Foot L
+    m_Weight: 0
+  - m_Path: Armature/Thigh L/Calf L/Foot L/Foot 2L
+    m_Weight: 0
+  - m_Path: Armature/Thigh L/Calf L/Foot L/Foot 2L/Foot 2L_end
+    m_Weight: 0
+  - m_Path: Armature/Thigh R
+    m_Weight: 0
+  - m_Path: Armature/Thigh R/Calf r
+    m_Weight: 0
+  - m_Path: Armature/Thigh R/Calf r/Foot R
+    m_Weight: 0
+  - m_Path: Armature/Thigh R/Calf r/Foot R/Foot 2 R
+    m_Weight: 0
+  - m_Path: Armature/Thigh R/Calf r/Foot R/Foot 2 R/Foot 2 R_end
+    m_Weight: 0
+  - m_Path: Cylinder
+    m_Weight: 0
+  - m_Path: goblin lp
+    m_Weight: 0
+  - m_Path: shield
+    m_Weight: 0
